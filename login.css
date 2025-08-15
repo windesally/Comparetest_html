@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    margin: 0 auto;
+    background-color: #333;
+    padding: 20px;
+    position: relative;
+}
+
+main{
+    padding: 50px;
+    height: 600px;
+
+    .container{
+        background-color: white;
+        padding: 5px;
+        .title{
+            color: black;
+            font-family: "Montserrat", sans-serif;
+            text-align: center;
+            font-size: 40px;
+        }
+/* ********************************************* */
+        .userbox{
+            margin: 0 auto;
+            width: 500px;
+            height: 8vh;
+            top: 30px;
+            position: relative;
+        }
+        .userbox input{
+            width: 100%;
+            height: 100%;
+            padding: 20px;
+            font-family: "Montserrat", sans-serif;
+            font-size: 17px;
+            border-radius: 7px;
+            border:solid 2px rgb(34, 31, 31);
+            
+        }
+
+        .userbox p{
+            position: absolute;
+            top: -10px;
+            left: 15px;
+            background-color: #fff;
+            padding: 0 10px;
+            font-family: "Montserrat", sans-serif;
+        }
+/* *************************************************** */
+        
+        .password{
+            margin: 0 auto;
+            width: 500px;
+            height: 8vh;
+            top: 30px;
+            position: relative;
+        }
+        .password input{
+            width: 100%;
+            height: 100%;
+            padding: 20px;
+            margin: 60px 0;
+            font-family: "Montserrat", sans-serif;
+            font-size: 17px;
+            border-radius: 7px;
+            border:solid 2px rgb(34, 31, 31);
+        }
+        .password p{
+            position: absolute;
+            top: 50px;
+            left: 20px;
+            background-color: #fff;
+            padding: 0 10px;
+            font-family: "Montserrat", sans-serif;
+        }
+/* **************************************************** */
+        .submit{
+            justify-content: center;
+            display: flex;
+            margin-top: 120px;            
+        }
+        .btn{
+            width: 80px;
+            height: 30px;
+            border-radius: 50px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: bold;
+            padding: 0 10px;
+        }
+        .btn:hover{
+            background-color: rgb(87, 228, 87);
+            transition: .5s;
+        }
+    }
+}

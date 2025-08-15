@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <header>
+        <div style="text-align: center;">
+            <img width="250" height="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/NXP_Semiconductors_logo_2023.svg/2560px-NXP_Semiconductors_logo_2023.svg.png" alt="NXP logo">
+        </div>
+    </header>
+
+    <main>
+        <section class="container">
+            <h1 class="title">Login</h1>
+                <form action="login.php" method="post">
+                    <div class="userbox" >
+                            <input type="text" name="username" placeholder="Enter your username" id="" required>     
+                            <p>Username</p>          
+                    </div>
+                    <div class="password">
+                            <input type="password" name="password" placeholder="Enter your password" required>     
+                            <p>Password</p> 
+                    </div>
+                    <div class="submit">
+                                <button class="btn" type="submit">Login</button>
+                    </div>
+                </form>
+        </section>
+    </main>
+</body>
+</html>
